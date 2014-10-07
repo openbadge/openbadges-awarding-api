@@ -1,0 +1,35 @@
+{
+  "name": "openbadges-awarding-api",
+  "version": "0.0.1-alpha1",
+  "description": "API for awarding hosted Open Badges",
+  "keywords": [
+    "openbadges",
+    "awarding",
+    "hosted"
+  ],
+  "homepage": "https://github.com/eGavr/openbadges-awarding-api",
+  "bugs": "https://github.com/eGavr/openbadges-awarding-api/issues",
+  "author": {
+    "name": "Evgeniy Gavryushin",
+    "email": "job.egavr@yandex.ru",
+    "url": "https://github.com/eGavr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eGavr/openbadges-awarding-api.git"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "jws": "^0.2.6",
+    "request": "^2.45.0"
+  },
+  "devDependencies": {
+    "jshint": "2.5.3",
+    "jscs": "1.5.9"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "jshint . && jscs -c .jscs.js ."
+  },
+  "license": "MIT"
+}
