@@ -7,8 +7,8 @@
     "awarding",
     "hosted"
   ],
-  "homepage": "https://github.com/eGavr/openbadges-awarding-api",
-  "bugs": "https://github.com/eGavr/openbadges-awarding-api/issues",
+  "homepage": "https://github.com/openbadges/openbadges-awarding-api",
+  "bugs": "https://github.com/openbadges/openbadges-awarding-api/issues",
   "author": {
     "name": "Evgeniy Gavryushin",
     "email": "job.egavr@yandex.ru",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eGavr/openbadges-awarding-api.git"
+    "url": "git://github.com/openbadges/openbadges-awarding-api.git"
   },
   "main": "./lib/index.js",
   "dependencies": {
